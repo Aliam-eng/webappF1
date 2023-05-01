@@ -9,6 +9,7 @@
 	<?php require "header.php";?>
 
 
+
 		<div style="margin: auto;max-width: 600px">
 
 			<h2 style="text-align: center;">Signup</h2>

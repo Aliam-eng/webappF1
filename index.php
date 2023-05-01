@@ -8,9 +8,8 @@
 <?php
     require "header.php";
     echo("hello all");
-    $date = date('Y-m-d H:i:s');
-    '<br>';
-    print($date);
+
+
     require "footer.php";
 ?>
 </body>
