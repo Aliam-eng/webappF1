@@ -1,9 +1,15 @@
 <?php
     session_start();
     include("db_config/connect.php");
+
+
+
+    
+  
     
     $email = $_POST['email'];
     $password = $_POST['password'];
+    
 
     $query = "select * from users where email = '$email' && password = '$password' ";
     $result= mysqli_query($con,$query);
